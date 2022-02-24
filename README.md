@@ -1,5 +1,10 @@
 # spring-resourceserver-oauth-google
 
+# Background
+This repo is intended to recreate the issue described in this StackOverlow question: [How to configure Spring Boot + OAuth2 + Resource Server to work with Google's multiple values for issuer URI?](https://stackoverflow.com/questions/71245108/how-to-configure-spring-boot-oauth2-resource-server-to-work-with-googles-mu)
+
+Also relevant is this StackOverflow question: [Spring Boot Authorization Server + Google OAuth2/OpenId Connect should work with access_token or id_token?](https://stackoverflow.com/questions/71254326/spring-boot-authorization-server-google-oauth2-openid-connect-should-work-with)
+
 # Setup
 - Set Google Client Id and Secret properties in Spring Boot's `application.properties` with appropriate values for your environment
 - Set Google Client Id in React's `.env` file with appropriate values for your environment
