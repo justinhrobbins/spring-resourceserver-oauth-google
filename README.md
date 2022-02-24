@@ -13,7 +13,7 @@
 - Open Chrome browser to http://localhost:3000/ <- running of `npm start` likely already opened your browser for you
 - Open Chrome developer tools
 - Click "Login with Google" button in browser to login to Google
-- Login should succeed but subsequent GET request to the Resource Server for secured @Controller will fail with a 401 (as seen in the Chrom developer tools console)
+- Login should succeed but subsequent GET request to the Resource Server for secured @Controller will fail with a 401 (as seen in the Chrome developer tools console)
 - Spring Boot log will show stack trace and error: `An error occurred while attempting to decode the Jwt: The iss claim is not valid`
 
 # Test it out > Make it succeed
