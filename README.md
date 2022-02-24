@@ -3,10 +3,11 @@
 # Setup
 - Set Google Client Id and Secret properties in Spring Boot's `application.properties` with appropriate values for your environment
 - Set Google Client Id in React's `.env` file with appropriate values for your environment
+- Run `npm install` in the `ui` folder
 
 # Start the App
 - Start Spring Boot app
-- Start React by running `npm start` in ui folder
+- Start React by running `npm start` in `ui` folder
 
 # Test it out > Make it fail
 - Open Chrome browser to http://localhost:3000/ <- running of `npm start` likely already opened your browser for you
